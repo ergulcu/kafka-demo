@@ -56,7 +56,7 @@ services:
         condition: service_healthy
 
   kafka-ui:
-    image: ghcr.io/kafbat/kafka-ui:v1.5.0
+    image: ghcr.io/kafbat/kafka-ui:v1.5.1
     ports:
       - "8085:8080"
     environment:
